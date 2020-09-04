@@ -24,14 +24,12 @@ spring:
 ```
 3. Then you can run the command below to start the application
 ```
-./gradlew --refresh-dependencies
 ./gradlew bootRun
 ```
 or
 ```
-./gradlew --refresh-dependencies
 ./gradlew build
-java -jar ./build/libs/user
+java -jar ./build/libs/user-0.0.1-SNAPSHOT.jar
 ```
 
 ### Start
